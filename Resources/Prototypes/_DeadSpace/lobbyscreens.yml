@@ -112,6 +112,30 @@
 #   id: Advocate
 #   background: /Textures/LobbyScreens/Fobos/taiga_lawyer.webp
 
+# - type: lobbyBackground
+#   id: ApophisNewYear
+#   background: /Textures/LobbyScreens/Fobos/apophis_new_year.webp
+
+# - type: lobbyBackground
+#   id: DeimosNewYear
+#   background: /Textures/LobbyScreens/Fobos/deimos_new_year.webp
+
+# - type: lobbyBackground
+#   id: FobosNewYear
+#   background: /Textures/LobbyScreens/Fobos/fobos_new_year.webp
+
+# - type: lobbyBackground
+#   id: MarinesNewYear
+#   background: /Textures/LobbyScreens/Fobos/marines_new_year.webp
+
+# - type: lobbyBackground
+#   id: SoyuzNewYear
+#   background: /Textures/LobbyScreens/Fobos/soyuz_new_year.webp
+
+# - type: lobbyBackground
+#   id: TitanNewYear
+#   background: /Textures/LobbyScreens/Fobos/titan_new_year.webp
+
 # Soyuz
 
 - type: lobbyBackground
@@ -145,3 +169,7 @@
 - type: lobbyBackground
   id: communist_banquet
   background: /Textures/LobbyScreens/Soyuz/communist_banquet.png
+
+- type: lobbyBackground
+  id: dawning
+  background: /Textures/LobbyScreens/Soyuz/dawning.png

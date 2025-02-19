@@ -5,9 +5,9 @@
   description: Скафандр, предназначенный для тех, кто браво защищает руководство коллектива станции.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
@@ -22,7 +22,7 @@
         Piercing: 0.7
         Radiation: 0.5
         Caustic: 0.6
-        Stun: 0.85
+        Stun: 0.85 # DS14-value: 4 stunbaton hits for stun
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 0.9
@@ -38,6 +38,6 @@
   description: Защитные характеристики данного бронежилета превосходят обычный и идентичны бронированной шинели начальника милиции.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+    sprite: _DeadSpace/Clothing/OuterClothing/Armor/blueshield_armor.rsi

@@ -1,11 +1,11 @@
 - type: entity
-  name: croissant-cream-name
   parent: FoodBakedBase
   id: ADTFoodCroissantCream
-  description: croissant-cream-desc
+  name: круассан с кремом
+  description: Хрустящий и румяный круассан с кремовой начинкой внутри.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: cream
   - type: FlavorProfile
     flavors:
@@ -22,13 +22,13 @@
           Quantity: 1
 
 - type: entity
-  name: croissant-choco-name
   parent: FoodBakedBase
   id: ADTFoodCroissantChocolate
-  description: croissant-choco-desc
+  name: круассан с шоколадом
+  description: Хрустящий и румяный круассан с шоколадно-ореховой начинкой внутри.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: chocolate
   - type: FlavorProfile
     flavors:
@@ -45,13 +45,13 @@
           Quantity: 1
 
 - type: entity
-  name: croissant-cheese-name
   parent: FoodBakedBase
   id: ADTFoodCroissantCheese
-  description: croissant-cheese-desc
+  name: сырный круассан
+  description: Круассан с плавленным сыром внутри.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: cheese
   - type: FlavorProfile
     flavors:
@@ -68,10 +68,10 @@
           Quantity: 1
 
 - type: entity
-  name: hot-dog-name
   parent: FoodInjectableBase
   id: ADTFoodHotDog
-  description: hot-dog-desc
+  name: хот-дог
+  description: Мягкая булочка с сосиской и кетчупом. Для перекуса на бегу между кухней и своим отделом.
   components:
   - type: FlavorProfile
     flavors:
@@ -81,7 +81,7 @@
   - type: Food
     transferAmount: 3
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/croissant.rsi
+    sprite: _ADT/Objects/Consumable/Food/croissant.rsi
     state: hotdog
   - type: SolutionContainerManager
     solutions:
@@ -94,5 +94,3 @@
           Quantity: 1
         - ReagentId: Protein
           Quantity: 3
-
-

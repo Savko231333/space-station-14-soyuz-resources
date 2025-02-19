@@ -28,6 +28,7 @@
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
       - id: ClothingHandsGlovesArkalyse # DS14
+      - id: BoxTapeRecorder # DS14
 
 - type: entity
   id: LockerWardenFilled
@@ -53,9 +54,11 @@
         amount: 2
       - id: RemoteSignaller
         amount: 2
+      - id: Binoculars
       - id: ClothingNeckBodyCamera # DS14
         amount: 4
       - id: ClothingHandsGlovesArkalyse # DS14
+      - id: BoxTapeRecorder # DS14
 
 - type: entity
   id: LockerSecurityFilled
@@ -148,6 +151,9 @@
       - id: HandLabeler
       - id: FlippoEngravedLighter # DS14
       - id: ADTtelescopicBaton # ADT
+      - id: BoxFolderRed # DS14
+      - id: BoxFolderYellow # DS14
+      - id: BoxTapeRecorder # DS14
 
 - type: entity
   id: ClosetBombFilled
@@ -158,11 +164,8 @@
     contents:
       - id: ClothingHeadHelmetBombSuit
       - id: ClothingOuterSuitBomb
-      # NT is cheap, what can you do...
       - id: Wirecutter
-      # prob: 0.9 # DS14-disabled
       - id: Screwdriver
-      # prob: 0.9 # DS14-disabled
       - id: Multitool
         prob: 0.75 # DS14-value
 

@@ -1,8 +1,9 @@
 - type: entity
-  name: sofa left side
+  name: черный диван
+  suffix: Левая часть
   id: ADTBlackSofaLeftSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -11,17 +12,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
     node: adtblacksofaleft
 
 - type: entity
-  name: sofa middle
+  name: черный диван
+  suffix: Середина
   id: ADTBlackSofaMiddle
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -30,17 +32,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
     node: adtblacksofamiddle
 
 - type: entity
-  name: sofa right side
+  name: черный диван
+  suffix: Правая часть
   id: ADTBlackSofaRightSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -49,7 +52,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/black_sofa.rsi
+    sprite: _ADT/Structures/Furniture/black_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -57,10 +60,11 @@
 
 #red sofa
 - type: entity
-  name: red sofa left side
+  name: красный диван
   id: ADTRedSofaLeftSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
+  suffix: Левая часть
   components:
   - type: Transform
     anchored: true
@@ -69,17 +73,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
     node: adtredsofaleft
 
 - type: entity
-  name: red sofa middle
+  name: красный диван
+  suffix: Середина
   id: ADTRedSofaMiddle
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -88,17 +93,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
     node: adtredsofamiddle
 
 - type: entity
-  name: red sofa right side
+  name: красный диван
+  suffix: Правая часть
   id: ADTRedSofaRightSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -107,7 +113,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/red_sofa.rsi
+    sprite: _ADT/Structures/Furniture/red_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -115,10 +121,11 @@
 
 #violet sofa
 - type: entity
-  name: violet sofa left side
+  name: фиолетовый диван
+  suffix: Левая часть
   id: ADTVioletSofaLeftSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -127,17 +134,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
     node: adtvioletsofaleft
 
 - type: entity
-  name: violet sofa middle
+  name: фиолетовый диван
+  suffix: Середина
   id: ADTVioletSofaMiddle
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -146,17 +154,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
     node: adtvioletsofamiddle
 
 - type: entity
-  name: violet sofa right side
+  name: фиолетовый диван
+  suffix: Правая часть
   id: ADTVioletSofaRightSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -165,7 +174,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/violet_sofa.rsi
+    sprite: _ADT/Structures/Furniture/violet_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
@@ -173,10 +182,11 @@
 
 #leather sofa
 - type: entity
-  name: leather sofa left side
+  name: кожаный диван
+  suffix: Левая часть
   id: ADTLeatherSofaLeftSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -185,17 +195,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_left
   - type: Construction
     graph: Seat
     node: adtleathersofaleft
 
 - type: entity
-  name: leather sofa middle
+  name: кожаный диван
+  suffix: Середина
   id: ADTLeatherSofaMiddle
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -204,17 +215,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_middle
   - type: Construction
     graph: Seat
     node: adtleathersofamiddle
 
 - type: entity
-  name: leather sofa right side
+  name: кожаный диван
+  suffix: Правая часть
   id: ADTLeatherSofaRightSide
   parent: SeatBase
-  description: It looks comfy.
+  description: Большой диван, с которого не хочется слезать
   components:
   - type: Transform
     anchored: true
@@ -223,19 +235,19 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/leather_sofa.rsi
+    sprite: _ADT/Structures/Furniture/leather_sofa.rsi
     state: sofa_right
   - type: Construction
     graph: Seat
     node: adtleathersofaright
 
 #церковная скамейка
-
 - type: entity
-  name: church bench left side
+  name: церковная скамейка
+  suffix: Левая часть
   id: ADTChurchBenchLeftSide
   parent: SeatBase
-  description: Simple, but beautiful.
+  description: Простая, но красивая.
   components:
   - type: Transform
     anchored: true
@@ -244,17 +256,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/church_bench.rsi #спрайт от shi106
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_left
   - type: Construction
     graph: Seat
     node: adtchurchbenchleft
 
 - type: entity
-  name: church bench middle
+  name: церковная скамейка
+  suffix: Середина
   id: ADTChurchBenchMiddle
   parent: SeatBase
-  description: Simple, but beautiful.
+  description: Простая, но красивая.
   components:
   - type: Transform
     anchored: true
@@ -263,17 +276,18 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/church_bench.rsi #спрайт от shi106
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_middle
   - type: Construction
     graph: Seat
     node: adtchurchbenchmiddle
 
 - type: entity
-  name: church bench side
+  name: церковная скамейка
+  suffix: Правая часть
   id: ADTChurchBenchRightSide
   parent: SeatBase
-  description: Simple, but beautiful.
+  description: Простая, но красивая.
   components:
   - type: Transform
     anchored: true
@@ -282,7 +296,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: ADT/Structures/Furniture/church_bench.rsi #спрайт от shi106
+    sprite: _ADT/Structures/Furniture/church_bench.rsi
     state: bench_right
   - type: Construction
     graph: Seat

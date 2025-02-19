@@ -8,9 +8,12 @@
   abstract: true
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/Mobs/Species/Xenomorph/parts.rsi
+    sprite: _DeadSpace/Sponsor/Mobs/Species/Xenomorph/parts.rsi
     state: full
-  - type: Blindable
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.50 #per second, scales with pressure and other constants.
   - type: Temperature
     heatDamageThreshold: 325
     coldDamageThreshold: 260
@@ -22,10 +25,8 @@
     heatDamage:
       types:
         Heat: 1 #per second, scales with temperature & other constants
-  - type: Barotrauma
-    damage:
-      types:
-        Blunt: 0.50 #per second, scales with pressure and other constants.
+  - type: Fingerprint
+  - type: Blindable
   - type: TypingIndicator
     proto: alien
   - type: Speech
@@ -69,7 +70,7 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
-      path: /Audio/DeadSpace/Sponsor/Sound/meow_xeno.ogg
+      path: /Audio/_DeadSpace/Sponsor/Sound/meow_xeno.ogg
   - type: Butcherable
     butcheringType: Spike
     spawned:

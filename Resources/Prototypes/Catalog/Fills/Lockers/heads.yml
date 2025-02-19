@@ -141,6 +141,7 @@
     - id: ClothingEyesHudCommand
     - id: BoxPhotocopierToners # DS14
     - id: PetBowlWater # DS14
+    - id: WeaponMiniatureEnergyGun # DS14
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -167,17 +168,18 @@
     - id: ClothingHandsGlovesColorYellow
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
-    - id: RCD
-    - id: RCDAmmo
+    # - id: RCD # DS14
+    # - id: RCDAmmo # DS14
     - id: RubberStampCE
     - id: ADTtelescopicBaton # ADT
+    - id: RCDCE # DS14
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
   id: FillChiefEngineerHardsuit
   table: !type:AllSelector
     children:
-    - id: ClothingMaskBreath
+    - id: ClothingMaskGasAtmos
     - id: ClothingOuterHardsuitEngineeringWhite
     - id: ClothingShoesBootsMagAdv
     - id: JetpackVoidFilled
@@ -346,6 +348,7 @@
     - id: SecurityTechFabCircuitboard
     - id: WeaponDisabler
     - id: WantedListCartridge
+    - id: DrinkHosFlask
     - id: ClothingMaskGasSwat # DS14
     - id: WeaponPistolX01 # DS14
     - id: HyperLinkBookCorporateLaw # DS14

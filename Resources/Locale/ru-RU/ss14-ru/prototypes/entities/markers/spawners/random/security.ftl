@@ -1,8 +1,8 @@
-ent-LootSpawnerSecurityBasic = спавнер лут милиция
-    .suffix = Экипировка, Простая
+ent-LootSpawnerSecurityBasic = спавнер лут СБ
+    .suffix = Снаряжение, Простое
     .desc = { ent-MarkerBase.desc }
-ent-LootSpawnerSecurity = спавнер лут милиция
-    .suffix = Экипировка, Улучшенная
+ent-LootSpawnerSecurity = спавнер лут СБ
+    .suffix = Снаряжение, Лучше
     .desc = { ent-MarkerBase.desc }
 ent-LootSpawnerArmory = спавнер лут оружейная
     .suffix = Оружие, Броня

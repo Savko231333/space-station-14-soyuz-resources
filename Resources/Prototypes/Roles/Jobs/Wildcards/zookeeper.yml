@@ -3,12 +3,20 @@
   name: job-name-zookeeper
   description: job-description-zookeeper
   playTimeTracker: JobZookeeper
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 3600 # 1 hour
   startingGear: ZookeeperGear
   icon: "JobIconZookeeper"
   supervisors: job-supervisors-hop
   access:
   - Service
   - Maintenance
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: MonkeyDay
+    prototype: MonkeyCubeBox
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250

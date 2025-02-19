@@ -1,15 +1,15 @@
 - type: entity
-  name: Dark master's katana
+  name: катана древнего мастера
   parent: BaseItem
   id: ADTObjectWeaponsMeleeMurasama
-  description: Artifact of an ancient samurai clan. Do not give to children
+  description: Артефакт древнего самурайского клана. Не давать детям.
   components:
   - type: Sharp
   - type: Tag
     tags:
     - SupremeSabre
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/murasama.rsi
+    sprite: _ADT/Objects/Weapons/Melee/murasama.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.5
@@ -18,5 +18,5 @@
         Slash: 25
   - type: Item
     size: Normal
-    sprite: ADT/Objects/Weapons/Melee/murasama.rsi
+    sprite: _ADT/Objects/Weapons/Melee/murasama.rsi
   - type: DisarmMalus

@@ -18,8 +18,12 @@
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Cargo
-  wage: 50
+  wage: 45
   #end-backmen: currency
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard
 
 - type: startingGear
   id: CargoTechGear

@@ -9,10 +9,10 @@
   id: ClothingBackpackDragonFox
   name: однолямочный блюспейс рюкзак
   description: Однолямочный рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Окрашен в зелёный хаки.
-  categories: [ HideSpawnMenu ]
+  # categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -49,9 +49,9 @@
     grid:
     - 0,0,9,1
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/belt.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/belt.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/belt.rsi
   - type: Item
     size: Huge
   - type: StorageFill
@@ -70,9 +70,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/jumpsuit.rsi
 
 # Hardsuit
 - type: entity
@@ -83,9 +83,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/suit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/suit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/suit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/suit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDragonFox
   - type: Item
@@ -114,9 +114,9 @@
   description: Шлем изолирующий владельца от страшного вакуума снаружи.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/helmet_suit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/helmet_suit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/helmet_suit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/helmet_suit.rsi
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -130,6 +130,62 @@
         Piercing: 0.9
         Heat: 0.9
 
+# HardSuit Event
+
+- type: entity
+  parent: ClothingOuterHardsuitAtmos
+  id: ClothingOuterHardsuitDragonFoxEvent
+  name: силовой доспех эгида
+  description:  Доспех изготавливают из самых продвинутых сплавов керамита, адамантия и некоторых других металлов. Точный состав сплава хранится в строжайшей тайне. Все элементы доспеха покрываются гексаграммными оберегами, омываются священными маслами и заклинаются древними защитными заклинаниями. 
+  components:
+  - type: Sprite
+    sprite: _DeadSpace/Sponsor/DragonFox/hardsuit.rsi
+  - type: Clothing
+    sprite: _DeadSpace/Sponsor/DragonFox/hardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitDragonFoxEvent
+  - type: Item
+    size: Huge
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Heat: 0.3
+        Radiation: 0.3
+        Caustic: 0.3
+        Stun: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitDragonFoxEvent
+  name: шлем эгида
+  description: Это имперский шлем типа «Аэгис», предназначенный для защиты владельца от психических атак. 
+  components:
+  - type: Sprite
+    sprite: _DeadSpace/Sponsor/DragonFox/hardsuit_helmet.rsi
+  - type: Clothing
+    sprite: _DeadSpace/Sponsor/DragonFox/hardsuit_helmet.rsi
+  - type: PointLight
+    color: "#daffad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.80
+        Heat: 0.80
+        Radiation: 0.80
+
 # Mask
 - type: entity
   parent: ClothingMaskGasSyndicate
@@ -139,9 +195,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/gas.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/gas.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/gas.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/gas.rsi
 
 # Cloak
 - type: entity
@@ -152,7 +208,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/cloak.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/cloak.rsi
 
 # Eyes
 - type: entity
@@ -163,9 +219,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/hud.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/hud.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/hud.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/hud.rsi
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
@@ -179,9 +235,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/head.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/head.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/vjlados/head.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/head.rsi
 
 # Magboots
 - type: entity
@@ -192,12 +248,12 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
+      sprite: _DeadSpace/Sponsor/vjlados/magboots.rsi
       layers:
       - state: icon
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
-      sprite: DeadSpace/Sponsor/vjlados/magboots.rsi
+      sprite: _DeadSpace/Sponsor/vjlados/magboots.rsi
     - type: ClothingSpeedModifier
       walkModifier: 1
       sprintModifier: 1
@@ -211,7 +267,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/vjlados/socks.rsi
+    sprite: _DeadSpace/Sponsor/vjlados/socks.rsi
 
 # Bolter gun
 - type: entity
@@ -221,14 +277,14 @@
   description: Вид ствольного огнестрельного оружия, стреляющего саморазгоняющимися на траектории болтами. Ввиду политики NanoTrasen калибр был изменён на .44 магнум.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/boltgun.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/boltgun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/boltgun.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/boltgun.rsi
   - type: GunWieldBonus
     minAngle: -43
     maxAngle: -43
@@ -342,7 +398,7 @@
   description: Однолямочный рюкзак для хранения вещей. Окрашен в зелёный хаки. 
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/backpack.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/backpack.rsi
 
 #Сестра битв
 - type: entity
@@ -366,9 +422,9 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/SisterOfBattle/hardsuit.rsi
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDragonFoxAlt
@@ -382,9 +438,9 @@
   description: Шлем оснащён системами фильтрации которые обеспечивают сёстрам чистый воздух. Дизайн шлема отражает его функциональность и эстетику, сочетая в себе элементы футуризма и религиозного символизма.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/head.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/SisterOfBattle/head.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/SisterOfBattle/head.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/SisterOfBattle/head.rsi
   - type: PointLight
     color: "#ff1929"
   - type: PressureProtection
@@ -399,9 +455,9 @@
   description: Предназначен для удобного размещения и переноски медицинского оборудования в условиях боевых действий.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/backpack.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/backpack.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/backpack.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -440,9 +496,9 @@
     walkModifier: 0.7
     sprintModifier: 0.7
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/suit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/suit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/suit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/suit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDragonFoxMedTech
   - type: Item
@@ -476,9 +532,9 @@
   description: 
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/helmet.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/helmet.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/helmet.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/hardsuit/helmet.rsi
   - type: PointLight
     color: "#ffde59"
   - type: PressureProtection
@@ -492,9 +548,9 @@
   description: Обеспечивает надёжную фиксацию и удобство при переноске необходимых предметов, что делает её незаменимой в полевых условиях.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/belt.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/belt.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/belt.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/belt.rsi
   - type: Storage
     maxItemSize: Small
     grid:
@@ -515,12 +571,12 @@
   description: Представляют собой инновационное решение для медицинского персонала, обеспечивающее комфорт и безопасность при работе в условиях, требующих повышенной защиты и удобства.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/magboots.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/magboots.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleVisuals.Layer" ]
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/magboots.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/magboots.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -532,9 +588,9 @@
   description: предназначены для защиты рук медицинского персонала в условиях, требующих повышенной прочности и защиты.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/gloves.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/gloves.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/gloves.rsi
 
 - type: entity
   parent: BaseMedicalPDA
@@ -543,9 +599,9 @@
   description: Защищённый карманный компьютер с высокой производительностью и надёжной конструкцией. Также оснащён встроенным анализатором здоровья.
   components:
   - type: Icon
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/pda.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/pda.rsi
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/pda.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/pda.rsi
     state: pda
     scale: 0.7, 0.7
 
@@ -556,9 +612,9 @@
   description: Разработана с учетом специфики работы медицинского персонала и обеспечивает комфорт и функциональность.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/jumpsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/jumpsuit.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/jumpsuit.rsi
 
 - type: entity
   parent: ClothingEyesHudMultiversal
@@ -567,10 +623,21 @@
   description: Предназначен для анализа здоровья пациента и его должности, также обеспечивает надёжную защиту глаз от вспышек и защиту от сварочных работ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/hud.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/hud.rsi
   - type: Clothing
-    sprite: DeadSpace/Sponsor/DragonFox/MedTech/other/hud.rsi
+    sprite: _DeadSpace/Sponsor/DragonFox/MedTech/other/hud.rsi
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
   - type: FlashImmunity
+
+# Customization
+
+- type: marking
+  id: Foxninetaildragon
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+  - sprite: _DeadSpace/Sponsor/DragonFox/ninetails.rsi
+    state: nine_tail_icon

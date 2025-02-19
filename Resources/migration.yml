@@ -329,7 +329,6 @@ MagazineBoxLightRifleRubber: MagazineBoxLightRifle
 MagazineBoxRifleRubber: MagazineBoxRifle
 MagazineBoxRifleBigRubber: MagazineBoxRifleBig
 MagazineBoxCaselessRifleRubber: MagazineBoxCaselessRifle
-MagazineBoxCaselessRifleBigRubber: MagazineBoxCaselessRifle10x24
 BoxMagazinePistolRubber: BoxMagazinePistol
 BoxMagazinePistolHighCapacityRubber: BoxMagazinePistolHighCapacity
 BoxMagazinePistolSubMachineGunRubber: BoxMagazinePistolSubMachineGun
@@ -339,7 +338,6 @@ BoxMagazineCaselessRifleRubber: BoxMagazinePistolCaselessRifle
 BoxMagazineMagnumSubMachineGunRubber: BoxMagazineMagnumSubMachineGun
 WeaponPistolMk58Nonlethal: WeaponPistolMk58
 WeaponPistolN1984Nonlethal: WeaponPistolN1984
-WeaponSubMachineGunVectorRubber: WeaponSubMachineGunVector
 WeaponSubMachineGunDrozdRubber: WeaponSubMachineGunDrozd
 WeaponRifleLecterRubber: WeaponRifleLecter
 
@@ -374,12 +372,12 @@ GasMinerlittleSpawning: null
 GasMiniMinerPlasma: null
 ADTEncryptionKeyLawyer: EncryptionKeyLaw
 ADTClothingHeadsetLawyer: ClothingHeadsetLaw
-ADTEncryptionKeySpec: EncryptionKeySOC
-ADTClothingHeadsetSpec: ClothingHeadsetSOC
+ADTEncryptionKeySpec: null
+ADTClothingHeadsetSpec: null
 EncryptionKeyIAA: EncryptionKeyLaw
 ADTEncryptionKeyMerc: EncryptionKeyMerc
 ADTClothingHeadsetMerc: ClothingHeadsetMerc
-ClothingHeadsetCSO: ClothingHeadsetSOC
+ClothingHeadsetCSO: null
 
 # 2024-05-09 - DS14
 PrinterDoc: null
@@ -461,7 +459,7 @@ BookChefGaming: BookHowToCookForFortySpaceman
 IntercomAssesmbly: IntercomAssembly
 
 #2024-07-17 - DS14
-ClothingHeadsetAltCSO: ClothingHeadsetSOC
+ClothingHeadsetAltCSO: null
 ClothingBackpackLeaderDuffelCBURNNECROFilled: null
 ClothingBackpackDuffelCBURNNECROFilled: null
 ClothingBackpackDuffelCBURNSCSTFilled: null
@@ -710,3 +708,55 @@ PaperSecOrderEmergencyOrderOne: null
 TravelingChefSpawnerUnitology: null
 TravelingDoctorSpawnerUnitology: null
 TravelingDoctorSpawner: null
+
+# 2025-01-19 - DS14
+ADTSummerShadeGlass: null
+ADTWinterSunGlass: null
+ADTHungoverAngelGlass: null
+ADTCitrusBalanceGlass: null
+ADTDobryiDrinkGlass: null
+ADTMilkEclipseGlass: null
+ADTArcticExplosionGlass: null
+ADTSugarKnightGlass: null
+ADTGrapeLadyGlass: null
+ADTSaturdayBaronGlass: null
+ADTArcticLatteGlass: null
+ADTAzureBlueGlass: null
+ADTEclipsedEclispeGlass: null
+ADTSpaceBushGlass: null
+ADTAppleMartiniGlass: null
+ADTBacardiAppleGlass: null
+ADTClothingBackpackDuffelSyndicateFilledXC67Ammo: ClothingBackpackDuffelSyndicateFilledXC67Ammo
+ADTClothingBackpackDuffelSyndicateFilledXC67: ClothingBackpackDuffelSyndicateFilledXC67
+ClothingBackpackDuffelSyndicateFilledBuldogAmmoXL: ClothingBackpackDuffelSyndicateFilledBuldogAmmoXL
+ADTClothingBackpackDuffelSyndicateFilledBuldogAmmo: ClothingBackpackDuffelSyndicateFilledBuldogAmmo
+ADTClothingBackpackDuffelSyndicateFilledC20Ammo: ClothingBackpackDuffelSyndicateFilledC20Ammo
+ADTClothingBackpackDuffelSyndicateFilledAKMS: ClothingBackpackDuffelSyndicateFilledAKMS
+ADTtelescopicBatonBob: ADTtelescopicBaton
+ADTtelescopicBatonKon: ADTtelescopicBaton
+
+# 2025-01-30 - DS14
+ActionToggleNightVision: null
+ClothingHeadsetSOC: null
+EncryptionKeySOC: null
+
+#2024-12-28
+DrinkIrishCarBomb: DrinkIrishSlammer
+
+#2025-01-06
+ClothingMaskSexyClown: ClothingMaskBlushingClown
+ClothingMaskSexyMime: ClothingMaskBlushingMime
+
+# 2025-01-27
+FoodCondimentPacketFrostoil: FoodCondimentPacketColdsauce
+
+#2025-02-05
+WeaponSubMachineGunVector: null
+WeaponSubMachineGunVectorRubber: null
+
+# 2025-02-14 - DS14
+ExplosionRuneBook: null
+IgniteRuneBook: null
+LootSpawnerScienceMinor: null
+LootSpawnerScienceMajor: null
+LootSpawnerRoboticsBorgModule: null

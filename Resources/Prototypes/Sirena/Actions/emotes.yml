@@ -1,8 +1,7 @@
 # flip animation
 - type: entity
   id: EmoteFlip
-  name: emote-flip-action-name
-  description: emote-flip-action-description
+  name: сделать сальто
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -12,8 +11,7 @@
 # jump animation
 - type: entity
   id: EmoteJump
-  name: emote-jump-action-name
-  description: emote-jump-action-description
+  name: прыгнуть
   categories: [ HideSpawnMenu ]
   components:
     - type: InstantAction
@@ -23,8 +21,7 @@
   # turn around in 4 directions animation
 - type: entity
   id: EmoteTurn
-  name: emote-turn-action-name
-  description: emote-turn-action-description
+  name: кружится
   categories: [ HideSpawnMenu ]
   components:
     - type: InstantAction
@@ -34,8 +31,7 @@
   # stop-tail animation
 - type: entity
   id: EmoteStopTail
-  name: emote-stop-tail-action-name
-  description: emote-stop-tail-action-description
+  name: перестать вилять хвостом
   categories: [ HideSpawnMenu ]
   components:
     - type: InstantAction
@@ -45,8 +41,7 @@
   # start-tail animation
 - type: entity
   id: EmoteStartTail
-  name: emote-start-tail-action-name
-  description: emote-start-tail-action-description
+  name: начать вилять хвостом
   categories: [ HideSpawnMenu ]
   components:
     - type: InstantAction

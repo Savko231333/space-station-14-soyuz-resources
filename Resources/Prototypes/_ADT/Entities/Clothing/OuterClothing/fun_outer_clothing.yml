@@ -1,21 +1,21 @@
 - type: entity
   parent: ClothingOuterBase
   id: ADTClothingOuterSuitRacoon
-  name: racoon suit
-  description: Snort snort snort!
+  name: костюм енота
+  description: Это же Мортиша!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Suits/racoon.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/racoon.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Suits/racoon.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/racoon.rsi
 
 - type: entity
   parent: ClothingOuterBase
   id: ADTClothingOuterSuitFox
-  name: fox suit
-  description: Snort snort snort!
+  name: костюм лисы
+  description: Алиса???
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Suits/fox.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/fox.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Suits/fox.rsi
+    sprite: _ADT/Clothing/OuterClothing/Suits/fox.rsi

@@ -15,14 +15,14 @@
   special:
   - !type:AddComponentSpecial
     components:
-    - type: CustomNameOnSpawn
+    # - type: CustomNameOnSpawn
     - type: MimePowers
     - type: FrenchAccent
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Civilian
-  wage: 50
+  wage: 45
   #end-backmen: currency
 
 - type: startingGear

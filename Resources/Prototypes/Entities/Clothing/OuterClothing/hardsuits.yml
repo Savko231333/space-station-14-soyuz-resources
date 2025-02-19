@@ -124,6 +124,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSpatio
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+    - HardsuitSpatio
 
 - type: entity
   parent: ClothingOuterHardsuitSalvage
@@ -168,6 +173,42 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSalvage
 
+#Goliath Hardsuit
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: ClothingOuterHardsuitGoliath
+  name: goliath hardsuit
+  description: A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.5
+        Heat: 0.7 #Goliath hide gets grilled instead of you
+        Radiation: 0.3
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitGoliath
+  - type: Construction
+    graph: HardsuitGoliath
+    node: hardsuitGoliath
+
+#Maxim Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitMaxim
@@ -518,7 +559,7 @@
         Heat: 0.5
         Radiation: 0.5
         Caustic: 0.5
-        Stun: 0.65 # DS14: 5 stunbaton hits for stun
+        Stun: 0.65 # DS14-value: 5 stunbaton hits for stun
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -587,7 +628,7 @@
         Heat: 0.2
         Radiation: 0.05
         Caustic: 0.5
-        Stun: 0.5 # DS14: 6 stunbaton hits for stun
+        Stun: 0.5 # DS14-value: 6 stunbaton hits for stun
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
@@ -626,7 +667,7 @@
         Heat: 0.5
         Radiation: 0.25
         Caustic: 0.4
-        Stun: 0.5 # DS14: 6 stunbaton hits for stun
+        Stun: 0.5 # DS14-value: 6 stunbaton hits for stun
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -663,7 +704,7 @@
         Heat: 0.2
         Radiation: 0.05
         Caustic: 0.2
-        Stun: 0.15
+        Stun: 0.15 # DS14-value: what is stun?
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.65
@@ -941,7 +982,7 @@
         Heat: 0.1
         Radiation: 0.05
         Caustic: 0.1
-        Stun: 0.05
+        Stun: 0.05 # DS14-value: what is stun?
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 0.9

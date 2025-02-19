@@ -1,23 +1,14 @@
 - type: entity
+  abstract: true
   parent: BasePDA
   id: BaseTypanPDA
-  categories: [ HideSpawnMenu ]
+  name: PDA
+  description: Personal Data Assistant.
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Devices/typan_pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
+    sprite: _DeadSpace/Objects/Devices/typan_pda.rsi
   - type: Icon
-    sprite: DeadSpace/Objects/Devices/typan_pda.rsi
-    state: pda-syndi-com
+    sprite: _DeadSpace/Objects/Devices/typan_pda.rsi
 
 - type: entity
   parent: BaseTypanPDA
@@ -27,7 +18,11 @@
   components:
   - type: Pda
     id: TypanIDCardRd
-    state: pda-syndi-science
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-science
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -41,7 +36,11 @@
   components:
   - type: Pda
     id: TypanIDCardScience
-    state: pda-syndi-science
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-science
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -55,7 +54,11 @@
   components:
   - type: Pda
     id: TypanIDCardBotanist
-    state: pda-syndi-botan
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-botan
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -69,7 +72,11 @@
   components:
   - type: Pda
     id: TypanIDCardMed
-    state: pda-syndi-med
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-med
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -93,7 +100,11 @@
   components:
   - type: Pda
     id: TypanIDCardEng
-    state: pda-syndi-eng
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-eng
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -107,7 +118,11 @@
   components:
   - type: Pda
     id: TypanIDCardCom
-    state: pda-syndi-com
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-com
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -121,7 +136,11 @@
   components:
   - type: Pda
     id: TypanIDCardCargo
-    state: pda-syndi-cargo
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-cargo
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon
@@ -135,7 +154,11 @@
   components:
   - type: Pda
     id: TypanIDCardChef
-    state: pda-syndi-chef
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi-chef
   - type: PdaBorderColor
     borderColor: "#891417"
   - type: Icon

@@ -19,7 +19,6 @@ chat-radio-binary = Двоичный
 chat-radio-deathsquad = Дым
 chat-radio-law = Юридический
 chat-radio-merc = Наёмники
-chat-radio-soc = КГБ
 chat-radio-typan = Тайпан
 chat-radio-unitolog = Юнитологи
 chat-radio-spiders = Связующая паутина

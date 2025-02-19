@@ -2,10 +2,9 @@
   parent: IDCardStandard
   id: TypanIDCardCargo
   name: ID карта
-  description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typancargo.rsi
+    sprite: _DeadSpace/Objects/Misc/typancargo.rsi
     layers:
     - state: typancardcargo
   - type: PresetIdCard
@@ -20,10 +19,9 @@
   parent: IDCardStandard
   id: TypanIDCardCom
   name: ID карта
-  description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typansec.rsi
+    sprite: _DeadSpace/Objects/Misc/typansec.rsi
     layers:
     - state: typancardcom
   - type: Access
@@ -43,10 +41,9 @@
   parent: IDCardStandard
   id: TypanIDCardEng
   name: ID карта
-  description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typaneng.rsi
+    sprite: _DeadSpace/Objects/Misc/typaneng.rsi
     layers:
     - state: typancardeng
   - type: Access
@@ -61,10 +58,9 @@
   parent: IDCardStandard
   id: TypanIDCardMed
   name: ID карта
-  description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typanmed.rsi
+    sprite: _DeadSpace/Objects/Misc/typanmed.rsi
     layers:
     - state: typancardmed
   - type: Access
@@ -78,10 +74,9 @@
   parent: IDCardStandard
   id: TypanIDCardRd
   name: ID карта
-  description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typanrd.rsi
+    sprite: _DeadSpace/Objects/Misc/typanrd.rsi
     layers:
     - state: typancardrd
   - type: PresetIdCard
@@ -97,10 +92,9 @@
   parent: IDCardStandard
   id: TypanIDCardScience
   name: ID карта
-  description: Карта, необходимая для доступа в различные отделы станции
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typanscien.rsi
+    sprite: _DeadSpace/Objects/Misc/typanscien.rsi
     layers:
     - state: typancardscience
   - type: PresetIdCard
@@ -118,7 +112,7 @@
   name: ID карта
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typanbotan.rsi
+    sprite: _DeadSpace/Objects/Misc/typanbotan.rsi
     layers:
     - state: typancardbotanist
   - type: PresetIdCard
@@ -136,7 +130,7 @@
   name: ID карта
   components:
   - type: Sprite
-    sprite: DeadSpace/Objects/Misc/typanchef.rsi
+    sprite: _DeadSpace/Objects/Misc/typanchef.rsi
     layers:
     - state: typancardchef
   - type: PresetIdCard

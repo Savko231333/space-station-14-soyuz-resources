@@ -152,11 +152,11 @@ ghost-role-information-loneop-description = Вы - одинокий операт
 ghost-role-information-loneop-rules = Вы [color=red][bold]Соло-антагонист[/bold][/color]. Помощь агентов на станции не гарантируется.
 ghost-role-information-hellspawn-name = Адское отродье
 ghost-role-information-hellspawn-description = Несите смерть всем, кто не повинуется великой богине Нар'Си.
-ghost-role-information-Death-Squad-name = Боец специального отряда "Дым"
-ghost-role-information-Death-Squad-description = Боец напичканный всевозможными имплантами и обладающий самой лучшей экипировкой с одной целью - аннигиляция.
-ghost-role-information-Death-Squad-rules = Вы обязаны подчиняться ВСЕМ приказам генерала специальных операций.
-ghost-role-information-SyndiCat-name = Котик "Рассвета"
-ghost-role-information-SyndiCat-description = Вы - верный дрессированный питомец оперативных бойцов с микробомбой. Служите своему хозяину до самой смерти!
+ghost-role-information-death-squad-name = Боец эскадрона смерти
+ghost-role-information-death-squad-description = Боец напичканный всевозможными имплантами и обладающий самой лучшей экипировкой с одной целью - аннигиляция.
+ghost-role-information-death-squad-rules = Вы обязаны подчиняться ВСЕМ приказам офицера специальных операций.
+ghost-role-information-SyndiCat-name = СиндиКот
+ghost-role-information-SyndiCat-description = Вы - верный дрессированный питомец ядерных оперативников с микробомбой. Служите своему хозяину до самой смерти!
 ghost-role-information-SyndiCat-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с агентом, который вас призвал.
 ghost-role-information-Cak-name = Тот
 ghost-role-information-Cak-description = Вы - любимое дитя шеф-повара. Вы - живой торт-кот.
@@ -181,13 +181,11 @@ ghost-role-information-derelict-cyborg-description = You are a regular cyborg th
 ghost-role-information-nukeop-reinforcement-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с ядерным оперативником, который вас призвал.
 ghost-role-information-syndicate-monkey-reinforcement-name = Агент "Рассвета"-обезьяна
 ghost-role-information-syndicate-monkey-reinforcement-description = Кому-то нужно подкрепление. Вы, специально обученная обезьяна, поможете им.
-ghost-role-information-syndicate-monkey-reinforcement-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с агентом, который вас призвал.
-ghost-role-information-syndicate-kobold-reinforcement-name = Агент "Рассвета"-кобольд
+ghost-role-information-syndicate-kobold-reinforcement-name = Агент Синдиката-кобольд
 ghost-role-information-syndicate-kobold-reinforcement-description = Кому-то нужно подкрепление. Вы, специально обученный кобольд, поможете им.
-ghost-role-information-syndicate-kobold-reinforcement-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с агентом, который вас призвал.
-ghost-role-information-syndicate-cyborg-assault-name = Штурмовой киборг "Рассвета"
-ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный киборг "Рассвета"
-ghost-role-information-syndicate-cyborg-description = "Рассвету" нужно подкрепление. Вы, холодная кремниевая машина для убийства, поможете им.
+ghost-role-information-syndicate-cyborg-assault-name = Штурмовой киборг Синдиката
+ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный киборг Синдиката
+ghost-role-information-syndicate-cyborg-description = Синдикату нужно подкрепление. Вы, холодная кремниевая машина для убийства, поможете им.
 ghost-role-information-security-name = Служба безопасности
 ghost-role-information-security-description = Вы офицер службы безопасности, но, похоже, попали в странную ситуацию...
 ghost-role-information-medical-name = Медицинский
@@ -235,9 +233,8 @@ ghost-role-information-pirate-captain-name = Капитан космически
 ghost-role-information-pirate-captain-description = Агх, дружище! Ты здесь главный, и тебе нужно разработать план, как заполучить эту сочную добычу с помощью крючка или мошенничества. Только постарайтесь избегать службы безопасности и утилизаторов!
 ghost-role-information-disaster-victim-name = Жертва катастрофы
 ghost-role-information-disaster-victim-description = Вы спаслись на спасательной капсуле с другой станции, которую постигла ужасная участь. Возможно, вас найдут и спасут.
-ghost-role-information-disaster-victim-rules = Действуют обычные правила для экипажа станции.
-ghost-role-information-syndie-disaster-victim-name = Жертва катастрофы из "Рассвета"
-ghost-role-information-syndie-disaster-victim-description = Вы - обычный пассажир со станции "Рассвета". К несчастью, спасательная капсула закинула вас во вражеский сектор...
+ghost-role-information-syndie-disaster-victim-name = Жертва катастрофы из Синдиката
+ghost-role-information-syndie-disaster-victim-description = Вы - обычный пассажир со станции Синдиката. К несчастью, спасательная капсула закинула вас во вражеский сектор...
 ghost-role-information-syndie-disaster-victim-rules = Действуют обычные правила для экипажа станции. Вы НЕ антагонист!
 ghost-role-information-mukhtar-name = Пёс милиции
 ghost-role-information-mukhtar-description = Вы - верный дрессированный пёс отдела милиции. Ваши укусы наносят мало урона, но вы легко можете положить преступника на землю.
@@ -249,3 +246,8 @@ ghost-role-information-gingerbread-description =
     Распространяйте паточную вкуснятину и хорошее настроение.
 ghost-role-information-tomatokiller-name = Томат-убийца
 ghost-role-information-tomatokiller-description = Этот маленький помидор будет служить ботанику до конца своей жизни... то есть пару минут.
+ghost-role-information-blueshieldofficer-name = Офицер "Синий Щит"
+ghost-role-information-blueshieldofficer-description = Вы - Офицер корпуса Синего Щита. Ваша задача защищать членов Центрального Командования и выполнять их приказы. Защищайте их ценой своей жизни! Также вы обладаете всеми навыками.
+ghost-role-information-centcomofficer-name = Офицер Центрального Командования
+ghost-role-information-centcomofficer-description = Вы - Офицер Центрального Командования. Вы должны защищать довереное вам место на котором вы появились и выполнять приказы вышестоящих сотрудников Центрального Командования.
+ghost-role-information-centcom-personal-rules = Вы обязаны подчиняться приказам членов Центрального Командования.

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerWage
-  name: Консоль ЗУП
-  description: allows you to call for special reasons persons to solve these reasons
+  name: консоль ЗУП
+  description: Позволяет управлять заработной платой экипажа.
   components:
   - type: Construction
     graph: nullgraph
@@ -29,9 +29,6 @@
     radius: 1.5
     energy: 1.6
     color: "#1f8c28"
- # - type: AccessReader
- #   access: [["CCOfficer"]]
-
 
 - type: constructionGraph
   id: nullgraph

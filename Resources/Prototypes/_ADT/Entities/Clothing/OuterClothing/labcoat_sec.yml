@@ -1,8 +1,10 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ADTClothingOuterCoatLabSec
+  name: лабораторный халат
+  description: Лабораторный халат.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi
   - type: Clothing
-    sprite: ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+    sprite: _ADT/Clothing/OuterClothing/Coats/labcoat_sec.rsi

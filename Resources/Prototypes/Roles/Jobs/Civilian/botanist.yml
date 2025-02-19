@@ -17,11 +17,15 @@
   extendedAccess:
   - Kitchen
   - Bar
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FourTwenty
+    prototype: CannabisSeeds
   #start-backmen: currency
   minBankBalance: 150
   maxBankBalance: 250
   wageDepartment: Civilian
-  wage: 50
+  wage: 60
   #end-backmen: currency
 
 - type: startingGear

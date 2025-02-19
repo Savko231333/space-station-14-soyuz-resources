@@ -6,9 +6,9 @@
   description: Удобный шлем оперативника комитета государственной безопасности. Выглядит устрашающе.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
     color: '#c70000'
   - type: HideLayerClothing

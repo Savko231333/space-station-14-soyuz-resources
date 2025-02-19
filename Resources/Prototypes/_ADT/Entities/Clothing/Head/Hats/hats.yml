@@ -2,13 +2,13 @@
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsGreatDruidWreath
-  name: Great Druid Wreath
-  description: So heavy, but it's worth it to proudly wear it.
+  name: большой венок друидов
+  description: Он такой тяжелый, но это стоит того что бы с гордостью его носить.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/great_druid_wreath.rsi
+    sprite: _ADT/Clothing/Head/Hats/great_druid_wreath.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/great_druid_wreath.rsi
+    sprite: _ADT/Clothing/Head/Hats/great_druid_wreath.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -17,9 +17,9 @@
   description: Для настоящих Dungeon Masters.
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/dungeon_master.rsi
+    sprite: _ADT/Clothing/Head/Hats/dungeon_master.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/dungeon_master.rsi
+    sprite: _ADT/Clothing/Head/Hats/dungeon_master.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -28,30 +28,30 @@
   description: Этот берет содержит эмблему Морской Пехоты ТСФ, 417-го полка, 2-го батальона, отряда «Браво».
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/marineberet.rsi
+    sprite: _ADT/Clothing/Head/Hats/marineberet.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/marineberet.rsi
+    sprite: _ADT/Clothing/Head/Hats/marineberet.rsi
 
 #Conjurer
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsJohanCap
-  name: Johans`s cap
-  description: Looks strange but cool
+  name: фуражка Йохана
+  description: Выглядит странно, но круто!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/johan_cap.rsi
+    sprite: _ADT/Clothing/Head/Hats/johan_cap.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/johan_cap.rsi
+    sprite: _ADT/Clothing/Head/Hats/johan_cap.rsi
 
 #Фуражка следователя
 - type: entity
   parent: ClothingHeadBase
   id: ADTClothingHeadHatsInvestigatorCap
-  name: investigator cap
-  description: Glory to NanoTrasen!
+  name: фуражка следователя службы безопасности
+  description: Слава NanoTrasen!
   components:
   - type: Sprite
-    sprite: ADT/Clothing/Head/Hats/investigator_cap.rsi
+    sprite: _ADT/Clothing/Head/Hats/investigator_cap.rsi
   - type: Clothing
-    sprite: ADT/Clothing/Head/Hats/investigator_cap.rsi
+    sprite: _ADT/Clothing/Head/Hats/investigator_cap.rsi

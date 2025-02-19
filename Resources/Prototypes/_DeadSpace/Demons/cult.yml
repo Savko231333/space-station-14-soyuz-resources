@@ -12,7 +12,7 @@
   parent: MobHuman
   name: культист
   id: BlueSoldier
-  suffix: призрачная роль
+  suffix: Призрачная роль
   components:
   - type: GhostRole
     name: Культист

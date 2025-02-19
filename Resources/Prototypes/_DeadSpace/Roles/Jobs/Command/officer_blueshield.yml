@@ -41,7 +41,7 @@
   minBankBalance: 800
   maxBankBalance: 1200
   wageDepartment: Specific
-  wage: 400
+  wage: 190
   #end-backmen: currency
   special:
   - !type:AddImplantSpecial
@@ -66,17 +66,21 @@
   id: BlueShieldOfficerPDA
   name: КПК оперативника КГБ
   components:
-    - type: Pda
-      id: BlueShieldOfficerIDCard
-      state: pda-ert
-    - type: PdaBorderColor
-      borderColor: "#12445b"
-      accentHColor: "#772d32"
-      accentVColor: "#772d32"
-    - type: Icon
-      state: pda-ert
-    - type: HealthAnalyzer
-      scanDelay: 1
+  - type: Pda
+    id: BlueShieldOfficerIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-ert
+  - type: PdaBorderColor
+    borderColor: "#12445b"
+    accentHColor: "#772d32"
+    accentVColor: "#772d32"
+  - type: Icon
+    state: pda-ert
+  - type: HealthAnalyzer
+    scanDelay: 1
 
 - type: entity
   parent: IDCardStandard
@@ -96,7 +100,7 @@
   description: Рюкзак оперативника КГБ с функцией РИГ.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Back/blueshield.rsi
+    sprite: _DeadSpace/Clothing/Back/blueshield.rsi
   - type: Storage
     grid:
     - 0,0,7,5

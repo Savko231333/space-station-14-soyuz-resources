@@ -1,11 +1,13 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSith
+  name: плащ ренегата
+  description: Этот мрачный плащ, сотканный из тяжелой ткани, наделяет своего владельца таинственностью и внушает страх окружающим. В нем скрываются тени тьмы и мощь Темной стороны.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_mantle.rsi
+    sprite: _DeadSpace/Sith/bondrewd_mantle.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_mantle.rsi
+    sprite: _DeadSpace/Sith/bondrewd_mantle.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodSith
     requiredSlot:
@@ -18,11 +20,13 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesSith
+  name: перчатки ренегата
+  description: Черные перчатки из тонкой кожи, усиленные защитными элементами. Они символизируют силу и решимость, необходимые для управления Темной стороной Силы.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_gloves.rsi
+    sprite: _DeadSpace/Sith/bondrewd_gloves.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_gloves.rsi
+    sprite: _DeadSpace/Sith/bondrewd_gloves.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-durathread
@@ -32,29 +36,35 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSith
+  name: униформа ренегата
+  description: Элегантный и практичный комбинезон, созданный для удобства и свободы движений в бою. Эта униформа подчеркивает силу и авторитет своего владельца.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_hardsuit.rsi
+    sprite: _DeadSpace/Sith/bondrewd_hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_hardsuit.rsi
+    sprite: _DeadSpace/Sith/bondrewd_hardsuit.rsi
 
 - type: entity
   id: ClothingShoesBootsSith
+  name: ботинки ренегата
+  description: Массивные ботинки из прочного материала, способные выдерживать любые условия. Они наделяют своего владельца уверенностью и устойчивостью на любом поле битвы.
   parent: ClothingShoesBootsCombatFilled
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_boots.rsi
+    sprite: _DeadSpace/Sith/bondrewd_boots.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_boots.rsi
+    sprite: _DeadSpace/Sith/bondrewd_boots.rsi
 
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetSith
+  name: шлем ренегата
+  description: Стальной шлем с угрожающей маской, скрывающей лицо владельца. Этот шлем внушает страх врагам и подчеркивает безжалостность носителя, преданного Темной стороне.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_helm.rsi
+    sprite: _DeadSpace/Sith/bondrewd_helm.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_helm.rsi
+    sprite: _DeadSpace/Sith/bondrewd_helm.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -78,12 +88,14 @@
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodSith
+  name: капюшон ренегата
+  description: Этот глубокий капюшон, скрывающий лицо, создан для тех, кто следует путями Темной стороны. Он придаёт владельцу зловещий и таинственный облик, идеально дополняя образ ренегата.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_hood.rsi
+    sprite: _DeadSpace/Sith/bondrewd_hood.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_hood.rsi
+    sprite: _DeadSpace/Sith/bondrewd_hood.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -95,11 +107,13 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskSith
+  name: маска ренегата
+  description: Эта зловещая маска, изготовленная из прочного материала, скрывает лицо ренегата, внушая страх врагам и подчёркивая его преданность Темной стороне. Она символизирует тайну и мощь, делая своего владельца ещё более угрожающим и непредсказуемым.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/bondrewd_mask.rsi
+    sprite: _DeadSpace/Sith/bondrewd_mask.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/bondrewd_mask.rsi
+    sprite: _DeadSpace/Sith/bondrewd_mask.rsi
   - type: Item
     storedRotation: -90
   - type: EyeProtection
@@ -110,11 +124,13 @@
 - type: entity
   parent: ClothingOuterHardsuitEVA
   id: ClothingOuterHardsuitSith
+  name: скафандр ренегата
+  description: Этот мощный скафандр, созданный из прочных материалов, обеспечивает ренегату надежную защиту в самых экстремальных условиях. Он символизирует силу и непоколебимость Темной стороны, придавая своему владельцу устрашающий вид и небывалую устойчивость.
   components:
   - type: Sprite
-    sprite: DeadSpace/Sith/hardsuit.rsi
+    sprite: _DeadSpace/Sith/hardsuit.rsi
   - type: Clothing
-    sprite: DeadSpace/Sith/hardsuit.rsi
+    sprite: _DeadSpace/Sith/hardsuit.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: Armor

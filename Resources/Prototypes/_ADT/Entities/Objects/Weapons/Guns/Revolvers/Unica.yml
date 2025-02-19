@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponRevolver357
   parent: BaseItem
   id: BaseWeaponRevolver357
-  description: A rooty tooty point and shooty.
+  name: питон .357
+  description: Робастный револьвер. Данный вариант использует патрон .357 магнум.
   abstract: true
   components:
   - type: Sprite
@@ -42,10 +42,10 @@
     price: 500
 
 - type: entity
-  name: Python
   parent: BaseWeaponRevolver357
   id: WeaponRevolverPython357
-  description: A robust revolver favoured by Syndicate agents. Uses .357 magnum ammo.
+  name: питон .357
+  description: Робастный револьвер. Испольует патрон .357 магнум.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -62,13 +62,13 @@
         volume: 2.25
 
 - type: entity
-  name: Unica 6
   parent: BaseWeaponRevolver357
   id: WeaponRevolverUnica
-  description: Legendary weapon of death squad and angry HoS
+  name: уника 6
+  description: Легендарный револьвер. Испольует патрон .357 магнум.
   components:
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Guns/Revolvers/Unica.rsi
+    sprite: _ADT/Objects/Weapons/Guns/Revolvers/Unica.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
   - type: Gun

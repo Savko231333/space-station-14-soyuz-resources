@@ -46,14 +46,6 @@
   id: ToysInventory
   name: store-category-vending-drinks
 
-# - type: storeCategory
-#   id: VendingLootboxInventory
-#   name: store-category-lootbox
-
-# - type: storeCategory
-#   id: VendingLootboxInventoryEmag
-#   name: store-category-emag
-
 - type: storeCategory
   id: SpaceUpInventory
   name: store-category-vending-drinks
@@ -81,14 +73,6 @@
 - type: storeCategory
   id: HappyHonkInventory
   name: store-category-HappyHonk
-
-# - type: storeCategory
-#   id: BoxingDrobeInventory
-#   name: store-category-vendingmachineboxingdrobe
-
-- type: storeCategory
-  id: BoxingDrobeInventoryEmag
-  name: store-category-emag
 
 - type: storeCategory
   id: DrinkVendInventoryEmag

@@ -73,12 +73,18 @@
       # Only used for NT borgs that can switch type, defined here to avoid copy-pasting the rest of this component.
       enum.BorgSwitchableTypeUiKey.SelectBorgType:
         type: BorgSelectTypeUserInterface
+      enum.StationMapUiKey.Key:
+        type: StationMapBoundUserInterface
+        requireInputValidation: false
   - type: ActivatableUI
     key: enum.BorgUiKey.Key
   - type: SiliconLawBound
   - type: ActionGrant
     actions:
     - ActionViewLaws
+    - ActionPAIOpenMap # DS14
+  - type: StationMap # DS14
+  - type: Magboots # DS14
   - type: EmagSiliconLaw
     stunTime: 5
   - type: SiliconLawProvider
@@ -134,7 +140,7 @@
   # TODO: refactor movement to just be based on toggle like speedboots but for the boots themselves
   # TODO: or just have sentient speedboots be fast idk
   - type: PowerCellDraw
-    drawRate: 0.6
+    drawRate: 0.8 # DS14-value
   # no ToggleCellDraw since dont want to lose access when power is gone
   - type: ItemSlots
     slots:
@@ -167,12 +173,12 @@
     - cell_slot
   - type: Lock
     locked: true
-    breakOnEmag: false
     unlockOnClick: false
   - type: ActivatableUIRequiresLock
   - type: LockedWiresPanel
   - type: Damageable
     damageContainer: Silicon
+    damageModifierSet: StandardBorg # DS14
   - type: Destructible
     thresholds:
     - trigger:
@@ -317,6 +323,7 @@
     access: [["SyndicateAgent"], ["NuclearOperative"]]
   - type: SiliconLawProvider
     laws: SyndicateStatic
+    subverted: true
   - type: IntrinsicRadioTransmitter
     channels:
     - Binary
@@ -333,6 +340,8 @@
       Unsexed: UnisexSiliconSyndicate
   - type: PointLight
     color: "#dd200b"
+  - type: Damageable
+    damageModifierSet: CombatBorg # DS14
 
 - type: entity
   id: BaseBorgChassisDerelict

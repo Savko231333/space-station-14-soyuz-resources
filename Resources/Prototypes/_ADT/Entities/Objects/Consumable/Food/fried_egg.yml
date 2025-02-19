@@ -1,8 +1,8 @@
 - type: entity
-  name: fried-egg-name
+  name: яичница с сосисками
   parent: FoodInjectableBase
   id: ADTFriedEggSausage
-  description: fried-egg-desc
+  description: Два яйца, пожаренных вместе с сосиской.
   components:
   - type: FlavorProfile
     flavors:
@@ -11,7 +11,7 @@
   - type: Food
     transferAmount: 3
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Food/fried_egg.rsi
+    sprite: _ADT/Objects/Consumable/Food/fried_egg.rsi
     state: fried_egg
   - type: SolutionContainerManager
     solutions:

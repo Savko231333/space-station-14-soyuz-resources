@@ -1,5 +1,6 @@
 - type: entity
-  name: Warhammer
+  name: вархмамер
+  description: Легендарное оружие чемпионов древности. С вархамером в одной руке...
   parent: BaseWeaponCrusher
   id: ADTWeaponWarhammer
   components:
@@ -7,7 +8,7 @@
     tags:
       - Pickaxe
   - type: Sprite
-    sprite: ADT/Objects/Weapons/Melee/warhammer.rsi
+    sprite: _ADT/Objects/Weapons/Melee/warhammer.rsi
     state: icon
   - type: AmmoCounter
   - type: UseDelayOnShoot

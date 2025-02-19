@@ -1,26 +1,13 @@
 - type: entity
-  id: ActionToggleNightVision
-  name: Переключить ночное зрение
-  description: Включает и выключает ночное зрение.
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: InstantAction
-    useDelay: 2.5
-    icon:
-      sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
-      state: icon
-    event: !type:ToggleNightVisionActionEvent
-
-- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudCMO
   name: очки главного врача
   description: Особые очки главного врача, оснащенные специальным индикатором, который сканирует гуманоидов в поле зрения и предоставляет точные данные о состоянии их здоровья, также имеют полимерное покрытие защищающее от вспышек.
   components:
   - type: Sprite
-    sprite: DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
   - type: Clothing
-    sprite: DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
+    sprite: _DeadSpace/Clothing/Eyes/Hud/cmo_hud.rsi
   - type: ShowHealthBars
     damageContainers:
     - Biological

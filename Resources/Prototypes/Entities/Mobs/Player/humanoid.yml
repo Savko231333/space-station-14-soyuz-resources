@@ -65,18 +65,18 @@
   parent: EventHumanoidMindShielded
   # Nanotrasen are a bit racist, but FSCP more racist
   speciesBlacklist:
-    # - Arachnid
+    - Arachnid
     - Diona
     - Dwarf
     # - Human
-    # - Moth
-    # - Reptilian
+    - Moth
+    - Reptilian
     - SlimePerson
     - Vox
-    # - Demon
-    # - Shark
-    # - Tajaran
-    # - Vulpkanin
+    - Demon
+    - Shark
+    - Tajaran
+    - Vulpkanin
     - Felinid
     - Kobolt
     - Xenomorph
@@ -122,9 +122,9 @@
     - FreedomImplant
     - DeathAcidifierImplant
   - type: GhostRole
-    name: ghost-role-information-Death-Squad-name
-    description: ghost-role-information-Death-Squad-description
-    rules: ghost-role-information-Death-Squad-rules
+    name: ghost-role-information-death-squad-name
+    description: ghost-role-information-death-squad-description
+    rules: ghost-role-information-death-squad-rules
     requirements:
       - !type:OverallPlaytimeRequirement
         time: 756000 # 210 hours
@@ -137,9 +137,55 @@
     - NamesLastDeathSquad
   - type: Loadout
     prototypes: [ DeathSquadGear ]
-    roleLoadout: [ RoleSurvivalEVA ]
   - type: TTS
     voice: Garithos
+
+## Centcom Blue Shield
+
+- type: entity
+  parent: MarkerBase
+  id: RandomHumanoidSpawnerMobHumanCentcomBlueShieldOfficer # Not actualy RandomHumanoidSpawner ¯\_(ツ)_/¯ x2
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Markers/jobs.rsi
+      state: blueshield-low
+  - type: ConditionalSpawner
+    prototypes:
+    - MobHumanCentcomBlueShieldOfficer
+
+- type: entity
+  parent: MobHuman
+  id: MobHumanCentcomBlueShieldOfficer
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: MindShield
+  - type: ZombieImmune
+  - type: AntagImmune
+  - type: AutoImplant
+    implants:
+    - TrackingImplant
+  - type: GhostRole
+    name: ghost-role-information-blueshieldofficer-name
+    description: ghost-role-information-blueshieldofficer-description
+    rules: ghost-role-information-centcom-personal-rules
+    requirements:
+      - !type:OverallPlaytimeRequirement
+        time: 180000 # 50 hours
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 72000 # 20 hours
+    raffle:
+      settings: short
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
+    nameSegments:
+      - NamesFirstERT
+      - NamesLastERT
+  - type: Loadout
+    prototypes: [ CentcomBlueShieldGear ]
+    roleLoadout: [ RoleSurvivalEVA ]
 
 # ERT
 ## Leader
@@ -925,6 +971,18 @@
   id: CentcomOfficer
   parent: EventHumanoidMindShieldedCentcom
   components:
+    - type: GhostRole
+      name: ghost-role-information-centcomofficer-name
+      description: ghost-role-information-centcomofficer-description
+      rules: ghost-role-information-centcom-personal-rules
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 108000 # 30 hours
+      raffle:
+        settings: short
+    - type: GhostTakeoverAvailable
+    - type: RandomMetadata
     - type: Loadout
       prototypes: [ CentcomOfficerGear ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -992,3 +1050,4 @@
         settings: default
     - type: GhostTakeoverAvailable
     - type: Cluwne
+

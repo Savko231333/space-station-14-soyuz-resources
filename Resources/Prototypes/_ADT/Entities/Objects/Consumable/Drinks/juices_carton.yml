@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBase
   id: ADTDrinkJuiceBerryCarton
-  name: berry juice
-  description: juice mix from many berries.
+  name: ягодный сок
+  description: Пакет сока из разных видов ягод.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -13,13 +13,13 @@
           Quantity: 50
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/berryjuice.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/berryjuice.rsi
 
 - type: entity
   parent: DrinkBase
   id: ADTDrinkJuiceLemonCarton
-  name: lemon juice
-  description: juice from lemon.
+  name: лимонный сок
+  description: Пакет лимонного сока. Очень кислый.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -30,5 +30,5 @@
           Quantity: 50
   - type: Drink
   - type: Sprite
-    sprite: ADT/Objects/Consumable/Drinks/lemonjuice.rsi
+    sprite: _ADT/Objects/Consumable/Drinks/lemonjuice.rsi
 
