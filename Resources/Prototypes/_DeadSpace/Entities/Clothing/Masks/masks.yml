@@ -13,3 +13,25 @@
     tags:
     - WhitelistChameleon
   - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskClownPencil
+  name: Маска Дранкеля
+  description: Знаменитая маска Сергея Гладкова, выдающегося советского клоуна, один из последователей жанра клоунады в СССР.
+  components:
+  - type: Sprite
+    sprite: _DeadSpace/Clothing/Mask/ClownUSSP.rsi
+  - type: Clothing
+    sprite: _DeadSpace/Clothing/Mask/ClownUSSP.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - ClownMask
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Snout
+
