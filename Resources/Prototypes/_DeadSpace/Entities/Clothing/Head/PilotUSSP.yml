@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatClownUssp
-  name: Фуражка Дранкеля
+  name: фуражка Дранкеля
   description: Часть костюма известного клоуна в СССР, а теперь в СССП. 
   components:
   - type: Sprite
