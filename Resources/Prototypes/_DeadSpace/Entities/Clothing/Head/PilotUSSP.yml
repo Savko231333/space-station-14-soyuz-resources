@@ -5,9 +5,9 @@
   description: Часть костюма известного клоуна в СССР, а теперь в СССП. 
   components:
   - type: Sprite
-    sprite: /Uploaded/HatClownUSSP.rsi
+    sprite: _DeadSpace/Clothing/Head/Hats/HatClownUSSP.rsi
   - type: Clothing
-    sprite: /Uploaded/HatClownUSSP.rsi
+    sprite: _DeadSpace/Clothing/Head/Hats/HatClownUSSP.rsi
   - type: Tag
     tags:
     - ClothMade
