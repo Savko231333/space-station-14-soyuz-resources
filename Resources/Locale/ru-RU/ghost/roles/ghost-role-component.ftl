@@ -159,9 +159,9 @@ ghost-role-information-SyndiCat-name = СиндиКот
 ghost-role-information-SyndiCat-description = Вы - верный дрессированный питомец ядерных оперативников с микробомбой. Служите своему хозяину до самой смерти!
 ghost-role-information-SyndiCat-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с агентом, который вас призвал.
 ghost-role-information-Cak-name = Тот
-ghost-role-information-Cak-description = Вы - любимое дитя шеф-повара. Вы - живой торт-кот.
+ghost-role-information-Cak-description = Вы - любимое дитя повара. Вы - живой торт-кот.
 ghost-role-information-BreadDog-name = Хлебака
-ghost-role-information-BreadDog-description = Вы - любимое дитя шеф-повара. Вы - живая хлебная собака.
+ghost-role-information-BreadDog-description = Вы - любимое дитя повара. Вы - живая хлебная собака.
 ghost-role-information-space-ninja-name = Космический ниндзя
 ghost-role-information-space-ninja-description = Используйте хитрость и скрытность, чтобы выполнить цели которые поставил вам клан паука.
 ghost-role-information-space-ninja-rules = Вы элитный наёмник клана паука. Старайтесь действовать максимально скрытно, убивать только свои цели и тех кто попытается убить вас.
@@ -246,8 +246,8 @@ ghost-role-information-gingerbread-description =
     Распространяйте паточную вкуснятину и хорошее настроение.
 ghost-role-information-tomatokiller-name = Томат-убийца
 ghost-role-information-tomatokiller-description = Этот маленький помидор будет служить ботанику до конца своей жизни... то есть пару минут.
-ghost-role-information-blueshieldofficer-name = Офицер "Синий Щит"
-ghost-role-information-blueshieldofficer-description = Вы - Офицер корпуса Синего Щита. Ваша задача защищать членов Центрального Командования и выполнять их приказы. Защищайте их ценой своей жизни! Также вы обладаете всеми навыками.
-ghost-role-information-centcomofficer-name = Офицер Центрального Командования
-ghost-role-information-centcomofficer-description = Вы - Офицер Центрального Командования. Вы должны защищать довереное вам место на котором вы появились и выполнять приказы вышестоящих сотрудников Центрального Командования.
-ghost-role-information-centcom-personal-rules = Вы обязаны подчиняться приказам членов Центрального Командования.
+ghost-role-information-blueshieldofficer-name = Оперативник КГБ
+ghost-role-information-blueshieldofficer-description = Вы - оперативник комитета государстенной безопасности. Ваша задача защищать членов Генерального Штаба и выполнять их приказы. Защищайте их ценой своей жизни! Также вы обладаете всеми навыками.
+ghost-role-information-centcomofficer-name = Офицер Генерального Штаба 
+ghost-role-information-centcomofficer-description = Вы - Офицер Генерального Штаба. Вы должны защищать довереное вам место на котором вы появились и выполнять приказы вышестоящих сотрудников Генерального Штаба.
+ghost-role-information-centcom-personal-rules = Вы обязаны подчиняться приказам членов Генерального Штаба.
