@@ -1,0 +1,11 @@
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfClownUsssp
+  name: ярко-красный шарф
+  description: Часть костюма известного клоуна в СССР, а теперь в СССП.
+  components:
+  - type: Sprite
+    sprite: /Uploaded/scarf.rsi
+  - type: Clothing
+    sprite: /Uploaded/scarf.rsi
