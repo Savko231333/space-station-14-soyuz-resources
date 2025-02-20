@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatClownUssp
+  name: Фуражка Дранкеля
+  description: Часть костюма известного клоуна в СССР, а теперь в СССП. 
+  components:
+  - type: Sprite
+    sprite: /Uploaded/HatClownUSSP.rsi
+  - type: Clothing
+    sprite: /Uploaded/HatClownUSSP.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
