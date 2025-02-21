@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskClownPencil
-  name: маска Дранкеля
-  description: Знаменитая маска Сергея Гладкова, выдающегося советского клоуна, один из последователей жанра клоунады в СССР.
+  name: маска и грим мужичка
+  description: Знаменитая маска клоуна в СССП.
   components:
   - type: Sprite
     sprite: _DeadSpace/Clothing/Mask/ClownUSSP.rsi
