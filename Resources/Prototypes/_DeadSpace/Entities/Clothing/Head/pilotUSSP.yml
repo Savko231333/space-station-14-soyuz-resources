@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatClownUssp
-  name: фуражка Дранкеля
-  description: Часть костюма известного клоуна в СССР, а теперь в СССП. 
+  name: фуражка мужичка
+  description: Часть костюма известного клоуна в СССП парадирующего патриархальный образ мужчины в ОПЗ.
   components:
   - type: Sprite
     sprite: _DeadSpace/Clothing/Head/Hats/HatClownUSSP.rsi
