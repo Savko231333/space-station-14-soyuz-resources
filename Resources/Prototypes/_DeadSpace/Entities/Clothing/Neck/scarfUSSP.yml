@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfClownUsssp
-  name: ярко-красный шарф
-  description: Часть костюма известного клоуна в СССР, а теперь в СССП.
+  name: ярко-красный длинный шарф
+  description: Шарф костюма известного клоуна в СССП пропитанного запахом спирта.
   components:
   - type: Sprite
     sprite: _DeadSpace/Clothing/Neck/scarfClownUSSP.rsi
